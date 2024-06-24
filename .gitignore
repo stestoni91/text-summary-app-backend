@@ -1,5 +1,6 @@
 /*
 !.gitignore
 !requirements.txt
+!Dockerfile
 !*.py
 !/.github/
