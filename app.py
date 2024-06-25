@@ -4,7 +4,7 @@ from summarize import summarize
 
 app = FastAPI()
 
-@app.get('/')
+@app.post('/')
 def predict(text):
     return {
         'text':text,
