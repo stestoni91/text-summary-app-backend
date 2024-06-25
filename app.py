@@ -8,7 +8,7 @@ app = FastAPI()
 def predict(text):
     return {
         'text':text,
-        'summay':summarize(text)
+        'summary':summarize(text)
     }
 
 if __name__ == '__main__':
